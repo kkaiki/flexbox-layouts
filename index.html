@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Web Development Essentials</title>
     <link rel="stylesheet" href="./styles.css">
-    <script src="./style.js" defer></script>
 </head>
 <body>
 
 <header>
     <nav aria-label="Primary Navigation">
         <ul class="primary-nav">
-            <!-- Add logo image -->
             <li class="logo">
                 <a href="./index.html">
                     <img src="./images/logo.jpg" alt="Logo" class="logo-image">
@@ -28,12 +26,13 @@
 
 <main>
     <section id="main-content">
-        <div class="image-container">
-            <img src="./images/rose.jpg" alt="Left Image" class="float-left">
-            <img src="./images/water-lily.jpg" alt="Right Image" class="float-right">
+        <div class="image-row">
+            <img src="./images/rose.jpg" alt="Left Image" class="top-image">
+            <img src="./images/water-lily.jpg" alt="Right Image" class="top-image">
         </div>
-
-        <div class="clear-both"></div> <!-- This will clear both floats -->
+        <div class="large-image-container">
+            <img src="./images/water-lily.jpg" alt="Large Image" class="large-image">
+        </div>
 
         <h1>Welcome to Our Website</h1>
 
@@ -41,9 +40,7 @@
             <p>This is the main content area.</p>
         </div>
 
-        <div style="height: 1500px">
-            <p></p>
-        </div>
+        <div style="height: 1500px"></div>
 
     </section>
 </main>
@@ -58,6 +55,8 @@
         </ul>
     </nav>
 </footer>
+
+<script src="./style.js" defer></script>
 
 </body>
 </html>

@@ -81,7 +81,7 @@ main {
 }
 
 #about-content {
-    width: 80%;
+    width: 50%;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -89,7 +89,7 @@ main {
 }
 
 #contact-content {
-    width: 80%;
+    width: 50%;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -148,17 +148,33 @@ h1 {
 .float-left {
     float: left;
     margin-right: 10px;
-    width: 20%;
+    width: 50%;
     height: auto;
 }
 
 .float-right {
     float: right;
     margin-left: 10px;
-    width: 15%;
+    width: 50%;
     height: auto;
 }
 
 .clear-both {
     clear: both;
+}
+
+.image-row {
+    display: flex;
+}
+
+.top-image {
+    width: 50%;
+}
+
+.large-image-container {
+    margin-top: 20px;
+}
+
+.large-image {
+    width: 100%;
 }
